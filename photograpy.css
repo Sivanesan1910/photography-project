@@ -125,6 +125,9 @@ span{
         margin: auto;
         
     }
+    .s2{
+        width: 100%;
+    }
     .na img,.lo img,.fash img,.fn img{
         width: 100%;
         padding: 50px;
@@ -135,11 +138,20 @@ span{
     .left,.a3{
         width: 100%;
     }
+    .flex1{
+        width: 100%;
+    }
  }
  @media(max-width:967px),(max-width:927px){
     .li{
         width: 105px;
     
+    }
+    .flex1{
+        width: 100%;
+    }
+    .s2{
+        width: 100%;
     }
  }
  @media(max-width:640px){
@@ -148,12 +160,18 @@ span{
         width: 110px;
         height: 135px;
     }
+    .s2{
+        width: 100%;
+    }
  }
  @media(max-width:480px),(max-width:414px){
     .im12{
         margin: auto;
         width: 75px;
         height: 100px;
+    }
+    .flex1{
+        width: 100%;
     }
     .bx{
         flex-direction: column;
@@ -174,6 +192,9 @@ span{
             font-size: 10px;
             flex-direction: row;
         }
+        .s2{
+            width: 100%;
+        }
  }
  @media(max-width:375px){
     .im12{
@@ -181,11 +202,17 @@ span{
         width: 60px;
         height: 85px;
     }
+    .flex1{
+        width: 100%;
+    }
     .bx{
     flex-direction: column;
     }
     .flex1{
     flex-direction: column;
+    }
+    .s2{
+        width: 100%;
     }
  }
  @media(max-width:390px),(max-width:393px){
@@ -199,7 +226,12 @@ span{
     }
     .flex1{
     flex-direction: column;
+    width: 100%;
     }
+    .s2{
+        width: 100%;
+    }
+}
     @media(max-width:280px){
         .im12{
             
@@ -211,5 +243,9 @@ span{
         }
         .flex1{
         flex-direction: column;
+        width: 100%;
+        }
+        .s2{
+            width: 100%;
         }
  }
